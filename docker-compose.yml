@@ -4,8 +4,6 @@ services:
   app:
     build: ./docker/app
     container_name: laravel_app
-    tty: true
-    command: /bin/bash
     ports:
      - "80:80"
     volumes:
